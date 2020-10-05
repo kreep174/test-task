@@ -1,0 +1,30 @@
+.item {
+    display: grid;
+    margin-top: 20px;
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+
+    grid-template-areas:
+      "i t"
+      "n t";
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.imgPost {
+    grid-area: i;
+}
+
+.namePost {
+    grid-area: n;
+}
+
+.textPost {
+    grid-area: t;
+    width: 500px;
+}

@@ -1,0 +1,29 @@
+.formPost {
+    padding: 20px;
+}
+
+.name {
+    margin: 10px;
+}
+
+.name input {
+    width: 300px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.text textarea {
+    width: 300px;
+    height: 100px;
+}
+
+.btn {
+    margin-left: 10px;
+
+}
+
+.posts {
+    margin-top: 15px;
+}
